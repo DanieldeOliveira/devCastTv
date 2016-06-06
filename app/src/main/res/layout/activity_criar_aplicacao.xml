@@ -146,4 +146,21 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.libraries.cast.companionlibrary.widgets.MiniController
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/miniController"
+            android:background="@drawable/mini_bg_shadow"
+            app:auto_setup="true"
+            android:visibility="gone">
+
+        </com.google.android.libraries.cast.companionlibrary.widgets.MiniController>
+
+    </LinearLayout>
+
 </LinearLayout>
