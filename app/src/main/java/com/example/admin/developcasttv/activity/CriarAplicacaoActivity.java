@@ -91,7 +91,7 @@ public class CriarAplicacaoActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                JSONObject mensagem = new JSONObject();
+                /*JSONObject mensagem = new JSONObject();
                 try {
                     mensagem.put("tipo","removeMsg");
                     videoCastManager.sendDataMessage(mensagem.toString());
@@ -101,7 +101,7 @@ public class CriarAplicacaoActivity extends AppCompatActivity {
                     e.printStackTrace();
                 } catch (NoConnectionException e) {
                     e.printStackTrace();
-                }
+                }*/
 
 
                 Intent intent = new Intent(Intent.ACTION_GET_CONTENT);

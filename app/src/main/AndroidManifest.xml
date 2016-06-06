@@ -61,7 +61,7 @@
         <activity
             android:name=".activity.CriarAplicacaoActivity"
             android:label="@string/CriarAplicacao"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
 
