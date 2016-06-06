@@ -68,8 +68,6 @@ public class CriarAplicacaoActivity extends AppCompatActivity {
         btn_addImagem = (ImageButton)findViewById(R.id.Ibtn_addImg);
         btn_addComentario = (ImageButton)findViewById(R.id.Ibtn_addComentario);
         btn_listaMidiasEnviadas = (ImageButton)findViewById(R.id.Ibtn_elementosEnviados);
-        btn_gerenciarMembros = (ImageButton)findViewById(R.id.Ibtn_gerenciarMembros);
-        btn_salvarAplicacao = (ImageButton)findViewById(R.id.Ibtn_salvarAplicacao);
         videoCastManager = VideoCastManager.getInstance();
 
 
@@ -124,19 +122,8 @@ public class CriarAplicacaoActivity extends AppCompatActivity {
             }
         });
 
-        btn_gerenciarMembros.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-            }
-        });
 
-        btn_salvarAplicacao.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
 
 
     }
@@ -178,7 +165,7 @@ public class CriarAplicacaoActivity extends AppCompatActivity {
                 Log.d("tempototal","" + VideoUtils.getDuracaoVideo(getApplicationContext(),path));
                 Log.d("tempototal","nome do arquivo = " + file.getName());
 
-               // castUtils.startVideo(urlFinal,VideoUtils.getDuracaoVideo(getApplicationContext(),path),file.getName());
+               castUtils.startVideo(urlFinal,VideoUtils.getDuracaoVideo(getApplicationContext(),path),file.getName());
             }
 
             if(requestCode == IMAGEM_INTERNA){

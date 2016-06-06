@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/telaInicial.css"/>
     <link rel="stylesheet" href="css/configuracaoGeral.css"/>
     <link rel="stylesheet" href="css/interacao.css">
+    <link rel="stylesheet" href="css/exibicaoVideo.css">
     <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
     <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/mediaplayer/1.0.0/media_player.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
@@ -40,7 +41,23 @@
 
             <h1 id="h1texto">Adicione suas mídias pelo celular!</h1>
 
-            <video id="vdo"></video>
+            <div class="video">
+                <video id="vdo"></video>
+                <div class="infomacoesVideo">
+                    <div class="titulo"></div>
+                    <div class="controles">
+                        <span class="controle-play-pause"></span>
+                        <span class="tempoAtual"></span>
+                        <span class="tempoTotal"></span>
+                        <div class="controlesProgresso">
+                            <div class="controls-progress-inner progressBar"></div>
+                            <div class="controls-progress-thumb"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
 
             <div class="imagens">
 

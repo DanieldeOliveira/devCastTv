@@ -54,7 +54,7 @@
         <TextView
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:text="@string/gerenciarMembros"
+            android:text="@string/addImg"
             android:gravity="center"/>
 
     </LinearLayout>
@@ -106,7 +106,7 @@
 
 
 
-    <LinearLayout
+   <!-- <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/layoutDono"
@@ -154,7 +154,7 @@
                 android:text="@string/salvarApp"
                 android:gravity="center"/>
 
-    </LinearLayout>
+    </LinearLayout>  -->
 
     <com.google.android.libraries.cast.companionlibrary.widgets.MiniController
         android:id="@+id/miniController"
