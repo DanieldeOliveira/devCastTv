@@ -19,6 +19,7 @@ function inserirElemento(elemento){
         elementoAInserir = document.createElement("img");
         elementoAInserir.id = elemento.idImg;
         elementoAInserir.src = elemento.url;
+        elementoAInserir.style.position = 'absolute';
         elementoAInserir.style.width = elemento.widthImagem +'px';
         elementoAInserir.style.height = elemento.heightImagem +'px';
         elementoAInserir.style.left = elemento.posicao.x+'px';
