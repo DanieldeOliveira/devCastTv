@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DevelopCastTV</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">87376AA0</string>
+    <string name="nameSpaceComunicaoChromeCast">urn:x-cast:DevCastSenderToChromecast</string>
+    <string name="nameSpaceComunicacaoSenders">urn:x-cast:DevCastSenderToSender</string>
+    <string name="mensagemConexao">Conecte-se ao chromecast para utilizar o DevCast</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="cadastro">Cadastrar Usuário</string>
+    <string name="recuperarSenha">Recuperar Senha</string>
+    <string name="enviar">Enviar</string>
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="addImg">Adicionar Imagem</string>
+    <string name="addComent">Adicionar Comentario</string>
+    <string name="addComandInteracaor">Adicionar Comando Interação</string>
+    <string name="addAreaComent">Adicionar área de comentário</string>
+    <string name="addVdo">Adicionar vídeo</string>
+    <string name="gerenciarMembros">Gerenciar membros</string>
+    <string name="CriarAplicacao">Criar Aplicação</string>
+    <string name="listaElementos">Lista de medias enviadas</string>
+    <string name="salvarApp">Salvar Aplicação</string>
+</resources>

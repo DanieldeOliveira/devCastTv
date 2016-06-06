@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/include_toolbar"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:id="@+id/lnly_botoesDono">
+
+
+        <ImageButton
+            android:id="@+id/Ibtn_addVideo"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="50dp"/>
+
+
+        <ImageButton
+            android:id="@+id/Ibtn_gerenciarMembros"
+            android:layout_width="120dp"
+            android:layout_height="80dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:id="@+id/lnly_txtBotoesDono"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/addVdo"
+            android:gravity="center"
+            android:layout_marginRight="50dp"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/gerenciarMembros"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center">
+
+
+        <ImageButton
+            android:id="@+id/Ibtn_addImg"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="50dp"/>
+
+
+        <ImageButton
+            android:id="@+id/Ibtn_addComentario"
+            android:layout_width="120dp"
+            android:layout_height="80dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/addImg"
+            android:gravity="center"
+            android:layout_marginRight="50dp"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/addComent"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/Ibtn_addComandoInteracao"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="50dp"/>
+
+
+        <ImageButton
+            android:id="@+id/Ibtn_addAreaComentario"
+            android:layout_width="120dp"
+            android:layout_height="80dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/addComandInteracaor"
+            android:gravity="center"
+            android:layout_marginRight="50dp"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/addAreaComent"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
