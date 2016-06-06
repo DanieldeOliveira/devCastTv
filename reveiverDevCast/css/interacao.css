@@ -26,11 +26,14 @@
 
 }
 
-#teste{
+/*#teste{
     display: block;
     position: absolute;
-    width: 20%;
-    height: 20%;
+
+}*/
+
+.imagens{
+    position: absolute;
 }
 
 

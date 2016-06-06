@@ -19,12 +19,20 @@ function inserirElemento(elemento){
         elementoAInserir = document.createElement("img");
         elementoAInserir.id = elemento.idImg;
         elementoAInserir.src = elemento.url;
+        elementoAInserir.style.display = 'block';
         elementoAInserir.style.position = 'absolute';
         elementoAInserir.style.width = elemento.widthImagem +'px';
         elementoAInserir.style.height = elemento.heightImagem +'px';
         elementoAInserir.style.left = elemento.posicao.x+'px';
         elementoAInserir.style.top = elemento.posicao.y+'px';
-        $('.interacao').html(elementoAInserir);
+        $('.imagens').html(elementoAInserir);
+
+        /*var imagem = document.querySelector('#teste');
+        imagem.src = elemento.url;
+        imagem.style.top = elemento.posicao.y+'px';
+        imagem.style.left = elemento.posicao.x+'px';
+        imagem.style.width = elemento.widthImagem +'px';
+        imagem.style.height =  elemento.heightImagem +'px';*/
 
 
 
@@ -69,7 +77,7 @@ function adicionarImagem(elemento){
 
 function testeFuncao(elemento){
 
-    var imagem = document.querySelector('#'+elemento.idImg);
+    var imagem = document.querySelector('#teste');
     imagem.src = elemento.url;
     imagem.style.top = elemento.posicao.y+'px';
     imagem.style.left = elemento.posicao.x+'px';
