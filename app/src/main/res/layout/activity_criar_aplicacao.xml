@@ -14,9 +14,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="50dp"
-        android:layout_gravity="center"
-        android:visibility="gone"
-        android:id="@+id/lnly_botoesDono">
+        android:layout_gravity="center">
 
 
         <ImageButton
@@ -25,9 +23,8 @@
             android:layout_height="80dp"
             android:layout_marginRight="50dp"/>
 
-
         <ImageButton
-            android:id="@+id/Ibtn_gerenciarMembros"
+            android:id="@+id/Ibtn_addImg"
             android:layout_width="120dp"
             android:layout_height="80dp" />
 
@@ -40,8 +37,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center"
-        android:id="@+id/lnly_txtBotoesDono"
-        android:visibility="gone">
+        android:id="@+id/lnly_txtBotoesDono">
 
         <TextView
             android:layout_width="120dp"
@@ -53,8 +49,10 @@
         <TextView
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:text="@string/gerenciarMembros"
+            android:text="@string/addImg"
             android:gravity="center"/>
+
+
 
     </LinearLayout>
 
@@ -67,55 +65,10 @@
 
 
         <ImageButton
-            android:id="@+id/Ibtn_addImg"
-            android:layout_width="120dp"
-            android:layout_height="80dp"
-            android:layout_marginRight="50dp"/>
-
-
-        <ImageButton
             android:id="@+id/Ibtn_addComentario"
             android:layout_width="120dp"
-            android:layout_height="80dp" />
-
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center">
-
-        <TextView
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:text="@string/addImg"
-            android:gravity="center"
-            android:layout_marginRight="50dp"/>
-
-        <TextView
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:text="@string/addComent"
-            android:gravity="center"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp">
-
-        <ImageButton
-            android:id="@+id/Ibtn_addComandoInteracao"
-            android:layout_width="120dp"
             android:layout_height="80dp"
             android:layout_marginRight="50dp"/>
-
 
         <ImageButton
             android:id="@+id/Ibtn_addAreaComentario"
@@ -131,10 +84,12 @@
         android:orientation="horizontal"
         android:layout_gravity="center">
 
+
+
         <TextView
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:text="@string/addComandInteracaor"
+            android:text="@string/addComent"
             android:gravity="center"
             android:layout_marginRight="50dp"/>
 
@@ -146,12 +101,8 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
 
-        <com.google.android.libraries.cast.companionlibrary.widgets.MiniController
+    <com.google.android.libraries.cast.companionlibrary.widgets.MiniController
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/miniController"
@@ -159,8 +110,7 @@
             app:auto_setup="true"
             android:visibility="gone">
 
-        </com.google.android.libraries.cast.companionlibrary.widgets.MiniController>
+    </com.google.android.libraries.cast.companionlibrary.widgets.MiniController>
 
-    </LinearLayout>
 
 </LinearLayout>
